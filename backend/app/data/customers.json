@@ -817,5 +817,58 @@
       104000,
       105000
     ]
+  },
+  {
+    "id": "10",
+    "name": "Kabir Sharma",
+    "city": "Noida",
+    "occupation": "Recent Graduate",
+    "risk_profile": "Aggressive",
+    "credit_score": 680,
+    "portfolio_value": 0,
+    "monthly_income": 40000,
+    "monthly_expenses": {
+      "essentials": 20000,
+      "discretionary": 10000,
+      "emi": 5000,
+      "detailed_bills": [
+        {
+          "name": "Rent",
+          "amount": 15000,
+          "category": "Housing",
+          "essential": true
+        },
+        {
+          "name": "Electricity",
+          "amount": 2000,
+          "category": "Utility",
+          "essential": true
+        },
+        {
+          "name": "Spotify",
+          "amount": 120,
+          "category": "Subscription",
+          "essential": false
+        }
+      ]
+    },
+    "holdings": [],
+    "goals": [
+      {
+        "goal_name": "Build Emergency Fund",
+        "target_amount": 100000,
+        "current_amount": 0,
+        "target_year": 2027,
+        "priority": "High"
+      }
+    ],
+    "spending_trend_6m": [
+      34000,
+      35000,
+      33000,
+      36000,
+      35000,
+      35000
+    ]
   }
 ]

@@ -31,9 +31,19 @@ npm run dev
 - **Data:** Synthetic customer personas (8 profiles)
 - **Architecture:** Provider-agnostic LLMGateway pattern (swap Claude for any LLM in one line)
 
-## Key Features
-- **Grounded AI:** Personalized advice grounded in real customer data via tool-calling (not hallucinated).
-- **Voice Interaction:** Voice interaction with animated orb synced to speech, utilizing browser-native Web Speech API.
-- **Graceful Degradation:** The application gracefully degrades to deterministic data if the API is unavailable (the demo never breaks).
-- **Goal Projection:** Goal feasibility projection using SIP compound growth math.
-- **Auditability:** Full conversation history per customer, displaying exact "Sources used" for maximum transparency.
+## 🌟 IDBI WealthAI: Total Key Features
+
+### 🛡️ 1. Enterprise-Grade AI (Safe & Reliable)
+- **Zero Hallucinations:** 100% grounded in real-time portfolio & transaction data via custom tool-calling. It never hallucinates financial numbers.
+- **Total Transparency:** Maintains a full conversation history per customer and explicitly cites the "Sources used" for every financial answer to guarantee transparency and build trust.
+- **Fail-Safe Architecture (Graceful Degradation):** Designed for high reliability; if the primary LLM API goes down, the application gracefully degrades to an offline deterministic mode (the demo *never* breaks).
+- **Strict, Professional Persona Constraints:** The AI acts exclusively as *IDBI WealthAI*. It refuses to break character, avoids general trivia, and gracefully pivots non-financial questions back to wealth management.
+
+### 🗣️ 2. Frictionless User Experience (Innovative UI)
+- **Native Voice Interface:** Features a dynamic, voice-responsive animated orb using browser-native Speech-to-Text and Text-to-Speech (no third-party plugins required).
+- **Context-Aware Memory & Continuous Learning:** Automatically extracts and remembers the client's past preferences, unrecorded goals, and financial concerns across sessions for highly personalized coaching.
+
+### 📈 3. Proactive Wealth Coaching (Business Impact)
+- **Money Leak Audits:** Actively scans detailed user bills and transaction data to identify "money leaks" (like unused subscriptions) and recommend ways to optimize cash flow.
+- **Dynamic Financial Health Engine:** Instantly calculates complex financial metrics on the fly, including Savings Rate, Asset Allocation, and Weighted Portfolio Returns.
+- **Actionable Goal Projections:** Uses compound growth (SIP) mathematics to calculate goal feasibility. Doesn't just highlight shortfalls—it recommends the *exact* additional monthly SIP required to get back on track.
